@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,11 +21,25 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/rygel.jpg'),
               ),
               Text(
-                'Rygel XVI',
+                'Rygel',
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 40.0,
+                    fontFamily: 'Pacifico',
                     fontWeight: FontWeight.bold),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                'FLUTTER  DEVELOPER',
+                style: TextStyle(
+                  color: Colors.teal.shade200,
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'SourceSansPro',
+                  letterSpacing: 2.5,
+                ),
               )
             ],
           ),
